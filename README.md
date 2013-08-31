@@ -1,0 +1,1 @@
+A restartless equivalent of Session Keeper

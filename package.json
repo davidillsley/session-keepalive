@@ -1,0 +1,35 @@
+{
+  "name": "session-keepalive",
+  "fullName": "Session Keep Alive",
+  "id": "jid1-zAt8odFFHQiNQA",
+  "description": "Keeps a web session alive by accessing a page in the background.",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [{
+        "name": "loginUrl",
+        "title": "Login URL",
+        "description": "Start session keepalive when this addres is visited",
+        "type": "string",
+        "value": "http://www.example.com/login"
+    },{
+        "name": "keepaliveUrl",
+        "title": "Keep Alive Address",
+        "description": "Address to access to keep the session alive",
+        "type": "string",
+        "value": "http://www.example.com/"
+    },{
+        "name": "logoutUrl",
+        "title": "Logout Address",
+        "description": "Stop session keepalive when this addres is visited",
+        "type": "string",
+        "value": "http://www.example.com/logout"
+    },
+    {
+        "description": "How frequently to access the Keep Alive Address (minutes)",
+        "name": "refreshInterval",
+        "type": "integer",
+        "value": 1,
+        "title": "Keep Alive Interval"
+    }]
+}
