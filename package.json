@@ -1,11 +1,12 @@
 {
   "name": "session-keepalive",
   "fullName": "Session Keep Alive",
-  "id": "jid1-zAt8odFFHQiNQA",
+  "id": "jid1-zAt8odFFHQiNQA@jetpack",
   "description": "Keeps a web session alive by accessing a page in the background.",
-  "author": "",
+  "author": "david@illsley.org",
   "license": "MPL 2.0",
-  "version": "0.1",
+  "version": "0.2.0",
+  "main": "lib/main.js",
   "preferences": [{
         "name": "loginUrl",
         "title": "Login URL",
