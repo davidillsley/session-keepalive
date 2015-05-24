@@ -5,7 +5,7 @@
   "description": "Keeps a web session alive by accessing a page in the background.",
   "author": "david@illsley.org",
   "license": "MPL 2.0",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/main.js",
   "preferences": [{
         "name": "loginUrl",
